@@ -5,33 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="c:/bootcamp/mini_project/style.css">
+    <link rel="stylesheet" href="c:/bootcamp/portfolio_page/style.css">
     <title>Chloe Harris</title>
 </head>
 
 <body>
-    <header>
-        <h1> Chloe Harris</h1>
+    <header class="header">
+        <h1>Chloe Harris</h1>
         <nav class="nav">
-            <ul class="ul">
-                <li><a href="#about-me"></a>About Me</li>
-                <li><a href="#work"></a>Work</li>
-                <li><a href="#contact-me"></a>Contact Me</li>
-                <li><a href="#resume"></a>Resume</li>
+            <ul>
+                <li><span><a href="#about-me"></a>About Me</span></li>
+                <li><span><a href="#work"></a>Work</span></li>
+                <li><span><a href="#contact-me"></a>Contact Me</span></li>
+                <li><span><a href="#resume"></a>Resume</span></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="container">
-            <!-- Using fig instead of div for SEO -->
-            <figure class="textover">
-                <img src="https://i.redd.it/84hvb6qljm861.jpg" alt="waves" style="width:100%;">
-                <figcaption>Welcome!</figcaption>
-            </figure>
-
-        </div>
-        <section class="about">
-            <h3> About Me</h3>
+        <div id="logo-container"><img class="responsive" src="c:\bootcamp\portfolio_page\assests/lajollawaves.jpg"
+                alt="Waves" /></a></div>
+        <section>
+            <h3> About<br>Me</br></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, exercitationem nostrum quod illo
                 deleniti dignissimos sed enim ullam quidem laboriosam soluta vero, cupiditate possimus earum debitis
                 omnis
@@ -43,19 +37,20 @@
                 veritatis reprehenderit delectus.
             </p>
         </section>
-        <!-- Need to create class for floating box with text -->
-        <section class="work">
-            <h3>Work</h3>
-            <p>Surf Report</p>
-            <p>LED Wall</p>
-            <p>Calculator</p>
-            <p>Pastel Puzzles</p>
-            <p>Run Buddy</p>
-        </section>
+        <h3>Work</h3>
+        <div class="flex container">
+            <div class="box" id="special">Surf Report<span class="programs">MERN Stack</span></div>
+            <div class="box">LED Wall<span class="programs">Node/IoT</span></div>
+            <div class="box">Calculator<span class="programs">React/JavaScript/CSS</span></div>
+            <div class="box">Pastel Puzzles<span class="programs">MERN Stack</span></div>
+            <div class="box">Run Buddy<span class="programs">HTML/CSS</span></div>
+        </div>
 
+    </main>
+    <footer>
         <section class="contact me">
-            <h3> Contact Me</h3>
-            <ul>
+            <h3> Contact<br>Me</br></h3>
+            <ul class="ul">
                 <li>206.637.3241</li>
                 <li>chloe.a.harris17@gmail.com</li>
                 <li><a href="https://github.com/chloeharris1" target="_blank"></a>GitHub</li>
@@ -64,9 +59,6 @@
                 </li>
             </ul>
         </section>
-
-    </main>
-    <footer>
 
     </footer>
 </body>
