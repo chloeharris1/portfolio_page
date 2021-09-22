@@ -12,26 +12,24 @@
 <body>
     <header class="main-header">
         <h1>Chloe Harris</h1>
-        <nav class="nav">
-            <!-- Bottom border around element -->
-
+        <nav class="header-links">
             <ul>
-                <li><span><a href="#about-me"></a>About Me</span></li>
-                <li><span><a href="#work"></a>Work</span></li>
-                <li><span><a href="#contact-me"></a>Contact Me</span></li>
-                <li><span><a href="#resume"></a>Resume</span></li>
+                <li><span><a href="#about-me">About Me</a></span></li>
+                <li><span><a href="#work">Work</a></span></li>
+                <li><span><a href="#contact-me">Contact Me</a></span></li>
+                <li><span><a href="https://www.linkedin.com/in/chloe-harris-51982322" target="_blank">Resume</a></span>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Set up as CSS background image so content can go on top -->
-        <section><img class="responsive" src="./assests/lajollawaves.jpg" alt="Colors" />
+        <section><img class="responsive" src="./assests/lajollawaves.jpg" alt="Waves" />
         </section>
         <span class="h2">Welcome to my site!</span>
 
-        <div class="class-1">
-            <h3>About Me</h3>
+        <div class="class-2">
+            <h3 id="about-me">About Me</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, exercitationem
                 nostrum quod illo deleniti dignissimos sed enim ullam quidem laboriosam soluta vero, cupiditate possimus
                 earum debitis omnis veritatis reprehenderit delectus.
@@ -42,54 +40,49 @@
                 omnis veritatis reprehenderit delectus</p>
         </div>
         <div class="class-1">
-            <h3>Work</h3>
+            <h3 id="work">Work</h3>
 
             <section class="container">
-                <!-- Add blocktext class to work -->
-                <!-- <div class="work"> -->
-                <!-- <div class="images"> -->
-                <div class="surf2"><img
+                <div class="work-1"><img
                         src="https://preview.redd.it/0z0eduuhqif61.jpg?width=960&crop=smart&auto=webp&s=765264b6edf44044b149243366ed82f5b8042d49"
                         alt="Surfer" />
-                    <h4>Surf Report MERN Stack</h4>
+                    <p><h4>Surf Report <br> <small>MERN Stack</small></h4></p>
                 </div>
-                <!-- <div class="column-1"> -->
-                <div class="surf">
-                <img src="https://7gd3o44dk8l3w91f312w9mm5-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png"
-                    alt="LED Wall" />
-                    <h4>LED Wall</h4>
+                <div class="work-2">
+                    <img src="https://7gd3o44dk8l3w91f312w9mm5-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png"
+                        alt="LED Wall" />
+                    <p><h4>LED Wall <br> <small>Node/IoT</small></h4></p>
                 </div>
-                <div class="surf">
-                <img src="https://www.athensstate.net/wp-content/uploads/2020/07/computer-science.jpg"
-                    alt="Computer Screen" />
-                    <h4>Calculator</h4>
-                </div>
-
-                <div class="surf">
-                <img src="https://image.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg"
-                    alt="Pastel Colors" />
-                    <h4>Pastel Puzzles</h4>
+                <div class="work-2">
+                    <img src="https://www.athensstate.net/wp-content/uploads/2020/07/computer-science.jpg"
+                        alt="Computer Screen" />
+                    <p><h4>Calculator <br> <small>React/JavaScript/CSS</small></h4></p>
                 </div>
 
-                <div class="surf">
-                <img src="https://s.abcnews.com/images/Health/GTY_two_runners_as_151204_16x9_992.jpg"
-                    alt="Runners" />
-                    <h4>Run Buddy</h4>
+                <div class="work-2">
+                    <img src="https://image.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg"
+                        alt="Pastel Colors" />
+                    <p><h4>Pastel Puzzles <br> <small>MERN Stack</small></h4></p>
+                </div>
+
+                <div class="work-2">
+                    <img src="https://s.abcnews.com/images/Health/GTY_two_runners_as_151204_16x9_992.jpg"
+                        alt="Runners" />
+                    <p><h4>Run Buddy <br> <small>HTML/CSS</small></h4></p>
                 </div>
             </section>
         </div>
     </main>
     <footer>
         <section>
-            <h3>Contact Me</h3>
-            <ul>
-                <li>206.637.3241</li>
-                <li><a href="mailto: chloe.a.harris17@gmail.com"></a>Email</li>
-                <li><a href="https://github.com/chloeharris1" target="_blank"></a>GitHub</li>
-                <li><a href="www.pinterest.com/ChloeAnne17" target="_blank"></a>Pinterest</li>
-                <li><a href="https://open.spotify.com/user/1256935245?si=f968a2a891d34f95" target="_blank"></a>Spotify
-                </li>
-            </ul>
+            <div class="main-footer">
+                <h3 id="contact-me">Contact Me</h3>
+                206.637.3241
+                <a href="mailto: chloe.a.harris17@gmail.com" target="_blank">Email</a>
+                <a href="https://github.com/chloeharris1/" target="_blank">GitHub</a>
+                <a href="https://pinterest.com/ChloeAnne17" target="_blank">Pinterest</a>
+                <a href="https://open.spotify.com/user/1256935245?si=f968a2a891d34f95" target="_blank">Spotify</a>
+            </div>
         </section>
 
     </footer>
