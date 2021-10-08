@@ -18,3 +18,4 @@ This site is designed to be responsive across multiple screen sizes using nested
 
 
 ##Deployed Page Link
+https://chloeharris1.github.io/portfolio_page/
