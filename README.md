@@ -13,7 +13,6 @@ This site is designed to be responsive across multiple screen sizes using nested
 
 
 ## Screenshot 
-![updatedportfolio]
 <img width="549" alt="portfolioupdate" src="https://user-images.githubusercontent.com/89039793/140840627-dda5cf80-fd04-4d32-be68-793696a2db51.PNG">
 
 
